@@ -1,0 +1,6 @@
+{
+  "best_epoch": 6,
+  "best_val_loss": 0.001553632763032034,
+  "completed_epochs": 21,
+  "interrupted": false
+}

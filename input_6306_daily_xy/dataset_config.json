@@ -1,0 +1,52 @@
+{
+  "input": [
+    "data/6306_all.csv"
+  ],
+  "output": "output_6306_daily_xy",
+  "sheet": 0,
+  "header": 0,
+  "columns": null,
+  "energy_multiplier": 1.0,
+  "threshold": 100000.0,
+  "energy_ref": 100000.0,
+  "grid": 64,
+  "sigma_m": 50.0,
+  "truncate": 3.0,
+  "train_end": "2022-01-01",
+  "bounds": null,
+  "padding": 150.0,
+  "start": null,
+  "end": null,
+  "coverage": null,
+  "png_every": 1,
+  "timezone": "Asia/Shanghai",
+  "channel_order": [
+    "low_E_lt_threshold",
+    "high_E_ge_threshold"
+  ],
+  "axis_order": [
+    "channel",
+    "y",
+    "x"
+  ],
+  "row_zero": "smallest_y",
+  "bounds_source": "events_before_train_end_plus_padding",
+  "bounds_xy": [
+    39489007.89,
+    39490880.22,
+    3920769.52,
+    3921977.57
+  ],
+  "cell_size_m": [
+    29.255156248807907,
+    18.875781250186265
+  ],
+  "start_inclusive": "2020-02-14T00:00:00+08:00",
+  "end_exclusive": "2024-01-19T00:00:00+08:00",
+  "kernel": "event-centered isotropic Gaussian; radial truncation; per-event in-grid sum normalized to 1",
+  "energy_map_unit": "J per cell (spatially allocated)",
+  "transform": "log10(1 + energy_J / energy_ref)",
+  "inverse": "energy_ref * (10**energy_log10 - 1)",
+  "png_fixed_vmax": 0.5229305028915405,
+  "png_scale_source": "training frames only; future overflow clipped for display"
+}

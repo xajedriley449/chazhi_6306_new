@@ -1,0 +1,33 @@
+{
+  "input_files": [
+    {
+      "path": "E:\\bye\\code\\chazhi_6306_new\\data\\6306_all.csv",
+      "sha256": "d66087968f9104f975a218d1417b2a485ec8702f9f3852c8a0631df8d620db06",
+      "rows": 14158,
+      "columns": {
+        "datetime": null,
+        "date": "Data",
+        "time": "CZAS",
+        "x": "X",
+        "y": "Y",
+        "z": "Z",
+        "energy": "ENERGIA"
+      }
+    }
+  ],
+  "raw_rows": 14158,
+  "rejected_rows": 0,
+  "duplicate_rows": 2,
+  "clean_events": 14156,
+  "high_events": 56,
+  "selected_events": 14156,
+  "excluded_time_events": 0,
+  "days": 1435,
+  "empty_days": 296,
+  "high_event_days": 55,
+  "out_of_bounds_events": 3,
+  "out_of_bounds_high_events": 0,
+  "confirmed_usable_days": 0,
+  "max_float32_total_energy_error_J": 0.03907674737274647,
+  "completed": true
+}
