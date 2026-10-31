@@ -1,0 +1,122 @@
+{
+  "action": "train",
+  "data": "E:\\bye\\code\\chazhi_6306_new\\input_6306_spatial_risk",
+  "output": null,
+  "checkpoint": null,
+  "split": "val",
+  "input_mode": "all",
+  "seed": 42,
+  "hidden": 16,
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 8,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "device": "auto",
+  "threads": 4,
+  "max_alarm_area": 0.1,
+  "forecast_date": null,
+  "identity": {
+    "dataset": "8051c0e73cfa6ad9fcc4b5346a4c014ce5bce687af8543741faed3c568509dad",
+    "samples": "7b1b755e4fb4336ee8d979ff6846310bc0b389be6447b040e4ac47f0f3e6db66",
+    "config": "9314ecf7429794b9226480f98f5b21ba766cadfcc89c3f9db1eae277bc786a18"
+  },
+  "dataset_config": {
+    "version": 1,
+    "source": "E:\\bye\\code\\chazhi_6306_new\\input_6306_daily_xy",
+    "source_config": {
+      "input": [
+        "data/6306_all.csv"
+      ],
+      "output": "output_6306_daily_xy",
+      "sheet": 0,
+      "header": 0,
+      "columns": null,
+      "energy_multiplier": 1.0,
+      "threshold": 100000.0,
+      "energy_ref": 100000.0,
+      "grid": 64,
+      "sigma_m": 50.0,
+      "truncate": 3.0,
+      "train_end": "2022-01-01",
+      "bounds": null,
+      "padding": 150.0,
+      "start": null,
+      "end": null,
+      "coverage": null,
+      "png_every": 1,
+      "timezone": "Asia/Shanghai",
+      "channel_order": [
+        "low_E_lt_threshold",
+        "high_E_ge_threshold"
+      ],
+      "axis_order": [
+        "channel",
+        "y",
+        "x"
+      ],
+      "row_zero": "smallest_y",
+      "bounds_source": "events_before_train_end_plus_padding",
+      "bounds_xy": [
+        39489007.89,
+        39490880.22,
+        3920769.52,
+        3921977.57
+      ],
+      "cell_size_m": [
+        29.255156248807907,
+        18.875781250186265
+      ],
+      "start_inclusive": "2020-02-14T00:00:00+08:00",
+      "end_exclusive": "2024-01-19T00:00:00+08:00",
+      "kernel": "event-centered isotropic Gaussian; radial truncation; per-event in-grid sum normalized to 1",
+      "energy_map_unit": "J per cell (spatially allocated)",
+      "transform": "log10(1 + energy_J / energy_ref)",
+      "inverse": "energy_ref * (10**energy_log10 - 1)",
+      "png_fixed_vmax": 0.5229305028915405,
+      "png_scale_source": "training frames only; future overflow clipped for display"
+    },
+    "threshold_J": 100000.0,
+    "seq_len": 10,
+    "sigma_m": 50.0,
+    "requested_max_cell_m": 100.0,
+    "cell_size_m": [
+      98.54368420690298,
+      92.92692307708785
+    ],
+    "grid_shape_yx": [
+      13,
+      19
+    ],
+    "bounds_xy": [
+      39489007.89,
+      39490880.22,
+      3920769.52,
+      3921977.57
+    ],
+    "channels": [
+      "all_event_count_per_ha",
+      "low_energy_J_per_ha",
+      "high_energy_J_per_ha"
+    ],
+    "train_end": "2022-01-01",
+    "test_start": "2023-01-01",
+    "coverage": "exploratory",
+    "interpretation": "exploratory catalog occurrence",
+    "target": "hard occupancy, E >= threshold, same fixed cell, next calendar day; no target smoothing",
+    "kernel": "Gaussian integrated over cells; per-event in-domain mass normalized; input only",
+    "spatial_scale_status": "candidate experiment parameters; not validated engineering resolution",
+    "source_hashes": {
+      "events_selected.csv": "d7e5ef7d3917e33930d5c77f7018dcc3e8569f909647fa5eb812b16b94aed919",
+      "daily_manifest.csv": "936124ddf327307724b97e68c95f10f6f637f2cc24c0c76186de60264ea54ec3",
+      "dataset_config.json": "55d58436e9006093ad7caa5a2e7991cb91e592d1211b2bc52becb4066277aeeb"
+    },
+    "reused_sample_manifest_sha256": null,
+    "dataset_sha256": "8051c0e73cfa6ad9fcc4b5346a4c014ce5bce687af8543741faed3c568509dad",
+    "samples_sha256": "7b1b755e4fb4336ee8d979ff6846310bc0b389be6447b040e4ac47f0f3e6db66",
+    "daily_audit_sha256": "6f9c49d225f99c66bdfe3ec2af6d03f37184c76397d1fafe0443d6b62aae99ff"
+  },
+  "script_sha256": "c0e8f84d523a38e0b47264457ebd9de5b932572d9f33327c3128a28c15ce8348",
+  "common_sha256": "d875b65a671cbeca682940d493b66b6cba560e0992601cb0bec44ad9306b1372",
+  "loss": "unweighted BCE, natural chronological targets, no positive oversampling"
+}

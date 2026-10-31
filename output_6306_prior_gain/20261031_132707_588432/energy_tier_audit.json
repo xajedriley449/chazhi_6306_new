@@ -1,0 +1,80 @@
+{
+  "raw_records_before_dedup": 14158,
+  "exact_duplicates_removed": 2,
+  "clean_selected_events": 14156,
+  "calendar_days": 1435,
+  "active_event_days": 1139,
+  "zero_event_days": 296,
+  "energy_tiers": {
+    "0 < E < 1e4 J": {
+      "events": 13416,
+      "event_pct": 94.77,
+      "active_days": 1125,
+      "energy_sum_J": 23106561.97,
+      "energy_pct": 26.04
+    },
+    "1e4 <= E < 1e5 J": {
+      "events": 684,
+      "event_pct": 4.83,
+      "active_days": 276,
+      "energy_sum_J": 20365355.21,
+      "energy_pct": 22.95
+    },
+    "E >= 1e5 J": {
+      "events": 56,
+      "event_pct": 0.4,
+      "active_days": 55,
+      "energy_sum_J": 45253944.34,
+      "energy_pct": 51.0
+    },
+    "E >= 1e6 J (subset)": {
+      "events": 10,
+      "event_pct": 0.07,
+      "active_days": 10,
+      "energy_sum_J": 24668762.97,
+      "energy_pct": 27.8
+    }
+  },
+  "yearly_distribution": [
+    {
+      "year": 2020,
+      "events_lt_1e4": 1693,
+      "events_1e4_to_1e5": 6,
+      "events_ge_1e5": 25,
+      "events_ge_1e6": 9,
+      "high_energy_days_ge_1e5": 24
+    },
+    {
+      "year": 2021,
+      "events_lt_1e4": 1475,
+      "events_1e4_to_1e5": 511,
+      "events_ge_1e5": 15,
+      "events_ge_1e6": 1,
+      "high_energy_days_ge_1e5": 15
+    },
+    {
+      "year": 2022,
+      "events_lt_1e4": 1818,
+      "events_1e4_to_1e5": 37,
+      "events_ge_1e5": 6,
+      "events_ge_1e6": 0,
+      "high_energy_days_ge_1e5": 6
+    },
+    {
+      "year": 2023,
+      "events_lt_1e4": 8398,
+      "events_1e4_to_1e5": 130,
+      "events_ge_1e5": 10,
+      "events_ge_1e6": 0,
+      "high_energy_days_ge_1e5": 10
+    },
+    {
+      "year": 2024,
+      "events_lt_1e4": 32,
+      "events_1e4_to_1e5": 0,
+      "events_ge_1e5": 0,
+      "events_ge_1e6": 0,
+      "high_energy_days_ge_1e5": 0
+    }
+  ]
+}

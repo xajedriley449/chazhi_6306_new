@@ -1,0 +1,20 @@
+{
+  "train": {
+    "samples": 676,
+    "high_event_days_ge_1e5": 39,
+    "high_events_ge_1e5": 40,
+    "mid_or_high_days_ge_1e4": 171
+  },
+  "val": {
+    "samples": 365,
+    "high_event_days_ge_1e5": 6,
+    "high_events_ge_1e5": 6,
+    "mid_or_high_days_ge_1e4": 34
+  },
+  "test": {
+    "samples": 349,
+    "high_event_days_ge_1e5": 9,
+    "high_events_ge_1e5": 9,
+    "mid_or_high_days_ge_1e4": 104
+  }
+}

@@ -1,0 +1,8 @@
+split,usable,reason,0
+test,False,outside_grid;old_manifest_excluded,33
+test,False,unconfirmed_catalog_edge;old_manifest_excluded,1
+test,True,,349
+train,False,insufficient_history;old_manifest_excluded,10
+train,False,unconfirmed_catalog_edge;old_manifest_excluded,1
+train,True,,676
+val,True,,365

@@ -1,0 +1,57 @@
+{
+  "training_climatology": {
+    "threshold": 0.008124076809453472,
+    "mean_alarm_area": 0.0,
+    "event_recall": 0.0,
+    "cell_precision": null,
+    "cell_recall": 0.0,
+    "negative_day_alarm_rate": 0.0,
+    "tp_cells": 0,
+    "fp_cells": 0,
+    "fn_cells": 6
+  },
+  "history_high_occupancy": {
+    "threshold": 0.09097623203974756,
+    "mean_alarm_area": 0.0,
+    "event_recall": 0.0,
+    "cell_precision": null,
+    "cell_recall": 0.0,
+    "negative_day_alarm_rate": 0.0,
+    "tp_cells": 0,
+    "fp_cells": 0,
+    "fn_cells": 6
+  },
+  "history_count": {
+    "threshold": 0.046816594898700714,
+    "mean_alarm_area": 0.062026509899617326,
+    "event_recall": 1.0,
+    "cell_precision": 0.001072961373390558,
+    "cell_recall": 1.0,
+    "negative_day_alarm_rate": 0.7298050139275766,
+    "tp_cells": 6,
+    "fp_cells": 5586,
+    "fn_cells": 0
+  },
+  "history_energy": {
+    "threshold": 74.5804214477539,
+    "mean_alarm_area": 0.058044478952914424,
+    "event_recall": 1.0,
+    "cell_precision": 0.0011465698452130708,
+    "cell_recall": 1.0,
+    "negative_day_alarm_rate": 0.7632311977715878,
+    "tp_cells": 6,
+    "fp_cells": 5227,
+    "fn_cells": 0
+  },
+  "history_count_energy_equal": {
+    "threshold": 0.19770548355579376,
+    "mean_alarm_area": 0.05800011092008208,
+    "event_recall": 1.0,
+    "cell_precision": 0.0011474469305794606,
+    "cell_recall": 1.0,
+    "negative_day_alarm_rate": 0.7493036211699164,
+    "tp_cells": 6,
+    "fp_cells": 5223,
+    "fn_cells": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "source_sha256": {
+    "baselines_A": {
+      "summary_sha256": "46ac0bb783ec95c79e6875da001bc70d73965a7bbee0f89416efdc99d007f825",
+      "daily_sha256": "93a36ba3b540456207eebef6b1e7f32773dfa5347fb5f018a7325211c83ad126"
+    },
+    "baselines_B": {
+      "summary_sha256": "3075b45e8cae94102d10229186077106da78dfce7a1731bc62879db0cab29005",
+      "daily_sha256": "8be49eafeaa1bf0c29918a6f7ac076454b35420ceffc0132d783c8de4fdb04cd"
+    },
+    "train_A_low_all_seed42": {
+      "summary_sha256": "27ad3f3c99167938c4add5531d5f0f6a928e5341cb00918e3ee594588c288779",
+      "daily_sha256": "7aac1734a8c8b3d9458588183ceeb06799c0a90e7d55190be022bd70f4a7b255"
+    },
+    "train_A_low_all_seed43": {
+      "summary_sha256": "02851526eb24345088ea53f2ccec406a0e36bbffc9f712795a3fa6b7878ebde4",
+      "daily_sha256": "ae6c422984d23e36f83cbd724142129debdb45b8544a86fe060d170387f1e340"
+    },
+    "train_A_low_all_seed44": {
+      "summary_sha256": "855c9408a868ed5e59a62b02da2de622e258b8a0f6bffb0775e33f3d2e074097",
+      "daily_sha256": "d460dffeb59f6c6a7333f9a570ca31b4f2cbc4fd6ae9f4d82cf54dadc3a9920a"
+    },
+    "train_A_high_all_seed42": {
+      "summary_sha256": "ecbc8b391952a1e94b355e9ba07f8204251daada006ca03c1edd894270edab51",
+      "daily_sha256": "65abc726efd301536e97532a51aef92ff17df822494c1f8c0cd5e9bd4098eb08"
+    },
+    "train_A_high_all_seed43": {
+      "summary_sha256": "5f4e7ee9cabee504e5b22f7d026ed7c752cb08bdeb2f4a444e19a60099813a94",
+      "daily_sha256": "072e9d5225612f98794d434b8213fa9a8a609479c025d510aeaeafb10e95b1cc"
+    },
+    "train_A_high_all_seed44": {
+      "summary_sha256": "b98c482ca319bfa3e08390cce66c7f9837e832855df2a52e9e679c2874b92343",
+      "daily_sha256": "d264f2c4cfba85ce27169c9439273e836ded9687deca4caab79948564758113b"
+    },
+    "train_A_dual_all_seed42": {
+      "summary_sha256": "5aaf44df91dcd232278abb7e8ef211765e8bd352a0a93456d5937046d1211e83",
+      "daily_sha256": "fc96862e5580ce4ab84f0b41b84bef370b5d37f743b206ab96ffe88933c01964"
+    },
+    "train_A_dual_all_seed43": {
+      "summary_sha256": "0d10fddd07e08fe633190ad23a76df41fe61314846d950ad717384ff14023bec",
+      "daily_sha256": "8ce5b64d412f58970adb55bb8692931df1db4f3fac0ce938477bea96be98c6a3"
+    },
+    "train_A_dual_all_seed44": {
+      "summary_sha256": "52e035a16a1d6b1bbfb5dbd9e7373933d2f1944ba2bd29575389b1b25e7afe4f",
+      "daily_sha256": "0be3cb938afca06647e74b1d39ef89890feddae85739a57f83851284dcc788cb"
+    },
+    "shuffled_A_dual_all_seed42": {
+      "summary_sha256": "5aa59ca1c71d85b4193958796c92928b55f5132892cdbced7bdc8c2ac871aad4",
+      "daily_sha256": "f8562c6066cd7b1f24cd9edaa5ac33717f3ff0042c7292f750c036756696dcbc"
+    },
+    "shuffled_A_dual_all_seed43": {
+      "summary_sha256": "ca738a27941caf6de09120762fcf51edfb88a6ecaf9825ac3d28480b1f6cc243",
+      "daily_sha256": "f8d02fa48c006831199c9bdfead5b87dbf7fbe087d631fc206c6d79def99d711"
+    },
+    "shuffled_A_dual_all_seed44": {
+      "summary_sha256": "9ee39bbc06721806e1b430f9de161314633fbecb4baf2dd45ef61671f02ff3c0",
+      "daily_sha256": "c6cb21dfcb1f9bedeac6be0fad4b9e7a76d9ec9d466456748e50e0d3afd9276c"
+    },
+    "train_B_low_all_seed42": {
+      "summary_sha256": "b8e20d7e8b0f86f71ba7f58dcec14f670b41b66bb761e9a1d1376225261bed63",
+      "daily_sha256": "fb014feaeee8f956a8c6e46456b467e8b3d4c8dc23ba32a2fbb705a1eb222faa"
+    },
+    "train_B_low_all_seed43": {
+      "summary_sha256": "0a40c5a47064697992e0e67179aa8aaf51c739c69dbe8ba181ba11d69d8354cc",
+      "daily_sha256": "01b37f4d8bafe127ddc5c3c21fedb100bdb8a1acc4b2f2559a9c2ceacd83c9dd"
+    },
+    "train_B_low_all_seed44": {
+      "summary_sha256": "e7b844065d35dc50ace389e436402f52a597cd3b3b65a57dcf53ae2c28f293d2",
+      "daily_sha256": "cda59749fdf4eb9425a1453c483caf8427218c88f13711687aef38d1cec753f1"
+    },
+    "train_B_high_all_seed42": {
+      "summary_sha256": "a745a558cb2229998b9a0049e0dd5d1fb92a273832ad58f3b2c27394ed386268",
+      "daily_sha256": "c0d6dd715854ffcea05fe31ea43819e6f5f0bdb8ef5fc8410613ae2e56383a3c"
+    },
+    "train_B_high_all_seed43": {
+      "summary_sha256": "18e209bd6a64eaf6bcaa139965a18a70c870c52e3a75592847f4bed7dde9d2e3",
+      "daily_sha256": "7dad57e41079c1a8e9e5b99eebae4dd88d95639e90874f5bd561abf96a932e3a"
+    },
+    "train_B_high_all_seed44": {
+      "summary_sha256": "c5bd3aa84d00c093e78e7bdc805eb6f5aadaf68d0766ca37c7f61d583f41fb43",
+      "daily_sha256": "227ed24ebde0b955a87e1c8cc89713f2663670ba41a45e5231e77b4a9a731cda"
+    },
+    "train_B_dual_all_seed42": {
+      "summary_sha256": "5adc80383e79dbf816d64f1dface106928dcc4893b22b21ed1c62525326bd6ff",
+      "daily_sha256": "b3b04325e6cf890027b772e60a9fe3331057b4fb09d6b44e8eeacd862f915a4b"
+    },
+    "train_B_dual_all_seed43": {
+      "summary_sha256": "94c179ee6d3ee6c1ffa256f617bc5d10dcefa79174362a792da12480f154e526",
+      "daily_sha256": "bff6e557987f6accc20e4f89158209fbd6f5e800d51fb0a54b0f5096df084969"
+    },
+    "train_B_dual_all_seed44": {
+      "summary_sha256": "d11d6a02a26ae55025da95a16b3fd32fc83319bec79cd7cf5ecec193787c6855",
+      "daily_sha256": "1440ff9266a3477e5aa6c95f33ef11000ca2b2192d87e981d6fb90abc85e6c35"
+    },
+    "shuffled_B_dual_all_seed42": {
+      "summary_sha256": "203bb03029a1edf1fde785292cc88f5657123b2d9413d2b16b27b81198aeacc8",
+      "daily_sha256": "b561d22e86dfff4d03d77bdbb68ea42a4219b9acd470dbc067a1344ff1f67feb"
+    },
+    "shuffled_B_dual_all_seed43": {
+      "summary_sha256": "a11d6b044fc5e4f09c4f9832c849d8e5c38b7bacbe4b1fffd8ab1d4e8040c7bb",
+      "daily_sha256": "9c3e2c760b6be35a8c9a1e19343a70242b87f50c51bb34005a3134683bb51598"
+    },
+    "shuffled_B_dual_all_seed44": {
+      "summary_sha256": "53f871167ffb4a956128a2152b0ef819335ef6d395cea8bcab90b98db5eed250",
+      "daily_sha256": "88643b6a2cac809943d77931eb455db4ca740bb8d9eddd869e2da9c15a5467bf"
+    }
+  },
+  "fits": 24,
+  "scope": "text outputs only; AP not recomputed; no full-map or label verification",
+  "bootstrap_repeats": 2000,
+  "random_seed": 6306,
+  "block_days": [
+    7,
+    14,
+    28
+  ],
+  "primary_budget": 10,
+  "primary_block_days": 14,
+  "seed_handling": "mean daily hits, not ensemble",
+  "interval": "pointwise percentile, exploratory, conditional on fitted models"
+}

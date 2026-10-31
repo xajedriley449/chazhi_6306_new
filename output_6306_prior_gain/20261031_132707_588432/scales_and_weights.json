@@ -1,0 +1,13 @@
+{
+  "input_scales_3ch": [
+    0.1206868514418602,
+    0.03256768733263016,
+    0.5229305028915405
+  ],
+  "channel_names": [
+    "freq_log10",
+    "low_energy_log10",
+    "high_energy_log10"
+  ],
+  "best_alpha_freq_vs_energy_on_train": 0.5
+}

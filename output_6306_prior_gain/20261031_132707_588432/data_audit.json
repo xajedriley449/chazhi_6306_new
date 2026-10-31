@@ -1,0 +1,20 @@
+{
+  "days": 1435,
+  "shape_3ch": [
+    1435,
+    3,
+    64,
+    64
+  ],
+  "channels": [
+    "0:freq_log10(1+N_smooth)",
+    "1:low_energy_log10",
+    "2:high_energy_log10"
+  ],
+  "target_radius_m": 50.0,
+  "unknown_days": 1435,
+  "coverage_mode": "exploratory",
+  "manifest_sha256": "936124ddf327307724b97e68c95f10f6f637f2cc24c0c76186de60264ea54ec3",
+  "events_sha256": "d7e5ef7d3917e33930d5c77f7018dcc3e8569f909647fa5eb812b16b94aed919",
+  "npz_digest": "62858c6c45814f3997196adc2c56eefaf08d1171705df47a55fafaa627acdb4c"
+}

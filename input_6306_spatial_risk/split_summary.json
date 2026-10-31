@@ -1,0 +1,23 @@
+{
+  "train": {
+    "samples": 676,
+    "high_event_days": 39,
+    "high_events": 40,
+    "positive_cells": 40,
+    "cell_prevalence": 0.0002395611240207939
+  },
+  "val": {
+    "samples": 365,
+    "high_event_days": 6,
+    "high_events": 6,
+    "positive_cells": 6,
+    "cell_prevalence": 6.655204924851645e-05
+  },
+  "test": {
+    "samples": 349,
+    "high_event_days": 9,
+    "high_events": 9,
+    "positive_cells": 9,
+    "cell_prevalence": 0.00010440471909330302
+  }
+}

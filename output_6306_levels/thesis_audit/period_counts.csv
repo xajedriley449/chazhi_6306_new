@@ -1,0 +1,13 @@
+period,partition,level,days,events,event_days
+development,train,0,676,556,171
+development,train,1,676,40,39
+development,evaluation,0,365,43,34
+development,evaluation,1,365,6,6
+A,train,0,1041,599,205
+A,train,1,1041,46,45
+A,evaluation,0,159,60,46
+A,evaluation,1,159,4,4
+B,train,0,1200,659,251
+B,train,1,1200,50,49
+B,evaluation,0,190,76,58
+B,evaluation,1,190,5,5

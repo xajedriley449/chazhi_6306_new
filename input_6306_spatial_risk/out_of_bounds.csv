@@ -1,0 +1,4 @@
+﻿datetime,x,y,z,energy_J,source_file,source_row,event_id,energy_class,date,inside_grid
+2023-01-04 20:09:06+08:00,39490911.16,3921856.59,-653.29,55.7286353111267,E:\bye\code\chazhi_6306_new\data\6306_all.csv,5591,ev_7047d93b9b3110423d1b4e06,0,2023-01-04,False
+2023-03-14 07:11:50+08:00,39490884.86,3921844.4,-659.1,1244.90512084961,E:\bye\code\chazhi_6306_new\data\6306_all.csv,5625,ev_cbf23a26f97ca6b89854db10,0,2023-03-14,False
+2023-09-05 17:24:30+08:00,39490968.14,3921727.25,-644.4,1441.173828125,E:\bye\code\chazhi_6306_new\data\6306_all.csv,11610,ev_0c096e5e234a4c72c5fbbeb4,0,2023-09-05,False

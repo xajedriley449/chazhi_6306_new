@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+# Train/evaluate/forecast also require PyTorch. Reuse torch from your existing env2.
+# Install the appropriate CPU/CUDA PyTorch build separately if not already installed.

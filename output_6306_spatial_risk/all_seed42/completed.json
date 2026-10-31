@@ -1,0 +1,5 @@
+{
+  "action": "train",
+  "split": "val",
+  "coverage": "exploratory"
+}

@@ -1,0 +1,53 @@
+{
+  "train": {
+    "samples": 676,
+    "levels": {
+      "ge1e4": {
+        "events": 556,
+        "event_days": 171,
+        "positive_cells": 460,
+        "cell_prevalence": 0.00275495292623913
+      },
+      "ge1e5": {
+        "events": 40,
+        "event_days": 39,
+        "positive_cells": 40,
+        "cell_prevalence": 0.0002395611240207939
+      }
+    }
+  },
+  "val": {
+    "samples": 365,
+    "levels": {
+      "ge1e4": {
+        "events": 43,
+        "event_days": 34,
+        "positive_cells": 42,
+        "cell_prevalence": 0.00046586434473961513
+      },
+      "ge1e5": {
+        "events": 6,
+        "event_days": 6,
+        "positive_cells": 6,
+        "cell_prevalence": 6.655204924851645e-05
+      }
+    }
+  },
+  "test": {
+    "samples": 349,
+    "levels": {
+      "ge1e4": {
+        "events": 136,
+        "event_days": 104,
+        "positive_cells": 127,
+        "cell_prevalence": 0.0014732665916499426
+      },
+      "ge1e5": {
+        "events": 9,
+        "event_days": 9,
+        "positive_cells": 9,
+        "cell_prevalence": 0.00010440471909330302
+      }
+    }
+  }
+}

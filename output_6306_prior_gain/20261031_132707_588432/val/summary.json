@@ -1,0 +1,461 @@
+{
+  "zero": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.0,
+      "neighborhood_recall_top5": 0.0,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": 0.0,
+      "neighborhood_recall_top10": 0.0,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": 0.0,
+      "neighborhood_recall_top20": 0.0,
+      "mean_alarm_area_top20": 0.0
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.0,
+      "neighborhood_recall_top5": 0.0,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": 0.0,
+      "neighborhood_recall_top10": 0.0,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": 0.0,
+      "neighborhood_recall_top20": 0.0,
+      "mean_alarm_area_top20": 0.0
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.0
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.351,
+      "neighborhood_pr_auc": 0.0,
+      "molchan_ass": 0.351
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0,
+      "0.9": 0.0,
+      "0.95": 0.0
+    }
+  },
+  "training_mean_energy": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.6667,
+      "neighborhood_recall_top5": 0.6667,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6667,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 0.6667,
+      "neighborhood_recall_top20": 0.6667,
+      "mean_alarm_area_top20": 0.2
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.6667,
+      "neighborhood_recall_top5": 0.6667,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6667,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 0.6667,
+      "neighborhood_recall_top20": 0.6667,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.2
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.8798,
+      "neighborhood_pr_auc": 0.0005,
+      "molchan_ass": 0.8798
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0104,
+      "0.9": 0.0104,
+      "0.95": 0.0104
+    }
+  },
+  "training_mean_freq": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.1667,
+      "neighborhood_recall_top5": 0.196,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6667,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 0.8333,
+      "neighborhood_recall_top20": 0.8333,
+      "mean_alarm_area_top20": 0.2
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.1667,
+      "neighborhood_recall_top5": 0.196,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6667,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 0.8333,
+      "neighborhood_recall_top20": 0.8333,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.2
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.8788,
+      "neighborhood_pr_auc": 0.0003,
+      "molchan_ass": 0.8788
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0714,
+      "0.9": 0.0714,
+      "0.95": 0.0714
+    }
+  },
+  "history_10day_high_energy_only": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.0,
+      "neighborhood_recall_top5": 0.0222,
+      "mean_alarm_area_top5": 0.0049,
+      "event_coverage_top10": 0.0,
+      "neighborhood_recall_top10": 0.0222,
+      "mean_alarm_area_top10": 0.0051,
+      "event_coverage_top20": 0.0,
+      "neighborhood_recall_top20": 0.0222,
+      "mean_alarm_area_top20": 0.0051
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.0,
+      "neighborhood_recall_top5": 0.0222,
+      "mean_alarm_area_top5": 0.0103,
+      "event_coverage_top10": 0.0,
+      "neighborhood_recall_top10": 0.0222,
+      "mean_alarm_area_top10": 0.0103,
+      "event_coverage_top20": 0.0,
+      "neighborhood_recall_top20": 0.0222,
+      "mean_alarm_area_top20": 0.0103
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0048,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.005,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.005
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.364,
+      "neighborhood_pr_auc": 0.0,
+      "molchan_ass": 0.364
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0,
+      "0.9": 0.0086,
+      "0.95": 0.013
+    }
+  },
+  "history_10day_low_energy_only": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3667,
+      "mean_alarm_area_top5": 0.0421,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6429,
+      "mean_alarm_area_top10": 0.076,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9375,
+      "mean_alarm_area_top20": 0.124
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3667,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6429,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9375,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.042,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0756,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.1227
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.975,
+      "neighborhood_pr_auc": 0.0028,
+      "molchan_ass": 0.975
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0032,
+      "0.9": 0.0375,
+      "0.95": 0.048
+    }
+  },
+  "history_10day_total_energy_only": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3667,
+      "mean_alarm_area_top5": 0.0421,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6429,
+      "mean_alarm_area_top10": 0.076,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9375,
+      "mean_alarm_area_top20": 0.124
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3667,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.6429,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9375,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.042,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0756,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.1227
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.9745,
+      "neighborhood_pr_auc": 0.0026,
+      "molchan_ass": 0.9744
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0016,
+      "0.9": 0.0221,
+      "0.95": 0.0267
+    }
+  },
+  "history_10day_freq_only": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3198,
+      "mean_alarm_area_top5": 0.042,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.674,
+      "mean_alarm_area_top10": 0.0756,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9688,
+      "mean_alarm_area_top20": 0.1231
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3198,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.6667,
+      "neighborhood_recall_top10": 0.674,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9688,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0418,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0752,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.1218
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.9746,
+      "neighborhood_pr_auc": 0.002,
+      "molchan_ass": 0.9746
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0302,
+      "0.9": 0.336,
+      "0.95": 0.4243
+    }
+  },
+  "history_10day_unified_freq_energy(a=0.50)": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3317,
+      "mean_alarm_area_top5": 0.0422,
+      "event_coverage_top10": 0.8333,
+      "neighborhood_recall_top10": 0.685,
+      "mean_alarm_area_top10": 0.0765,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9688,
+      "mean_alarm_area_top20": 0.1254
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3317,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.8333,
+      "neighborhood_recall_top10": 0.685,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9688,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0421,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0761,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.1241
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.9746,
+      "neighborhood_pr_auc": 0.002,
+      "molchan_ass": 0.9746
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0153,
+      "0.9": 0.1782,
+      "0.95": 0.2215
+    }
+  },
+  "history_10day_local_activity_S": {
+    "all": {
+      "days": 365,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3437,
+      "mean_alarm_area_top5": 0.0422,
+      "event_coverage_top10": 0.8333,
+      "neighborhood_recall_top10": 0.6841,
+      "mean_alarm_area_top10": 0.0765,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9792,
+      "mean_alarm_area_top20": 0.1254
+    },
+    "high_event_days": {
+      "days": 6,
+      "events": 6,
+      "event_coverage_top5": 0.3333,
+      "neighborhood_recall_top5": 0.3437,
+      "mean_alarm_area_top5": 0.0498,
+      "event_coverage_top10": 0.8333,
+      "neighborhood_recall_top10": 0.6841,
+      "mean_alarm_area_top10": 0.0999,
+      "event_coverage_top20": 1.0,
+      "neighborhood_recall_top20": 0.9792,
+      "mean_alarm_area_top20": 0.2
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "events": 0,
+      "event_coverage_top5": null,
+      "neighborhood_recall_top5": null,
+      "mean_alarm_area_top5": 0.0421,
+      "event_coverage_top10": null,
+      "neighborhood_recall_top10": null,
+      "mean_alarm_area_top10": 0.0761,
+      "event_coverage_top20": null,
+      "neighborhood_recall_top20": null,
+      "mean_alarm_area_top20": 0.1241
+    },
+    "spatiotemporal_ranking": {
+      "neighborhood_roc_auc": 0.9748,
+      "neighborhood_pr_auc": 0.0021,
+      "molchan_ass": 0.9748
+    },
+    "negative_day_peak_score_quantiles": {
+      "0.5": 0.0176,
+      "0.9": 0.1689,
+      "0.95": 0.2078
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "raw_data_sha256": "d66087968f9104f975a218d1417b2a485ec8702f9f3852c8a0631df8d620db06",
+  "raw_records": 14158,
+  "duplicate_records_removed_by_existing_preprocessor": 2,
+  "clean_records": 14156,
+  "new_grid_shape_yx": [
+    13,
+    19
+  ],
+  "four_core_tests": "passed",
+  "model_forward_backward_test": "skipped: torch unavailable",
+  "full_real_data_preparation": "passed",
+  "validation_baselines": "passed",
+  "full_data_timing_and_checksum_audit": "passed",
+  "convlstm_training": "not run: torch unavailable",
+  "test_set_evaluation": "not run"
+}

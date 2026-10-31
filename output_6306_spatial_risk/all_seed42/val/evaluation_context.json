@@ -1,0 +1,7 @@
+{
+  "split": "val",
+  "test_status": "validation used for model/threshold selection",
+  "scores": "sigmoid model and empirical baseline occurrence scores; calibration must be checked",
+  "top_area": "daily fixed area budget; fractional ties are expected coverage, not a deployed binary alarm",
+  "global_threshold": "chosen using validation only; frozen in other periods"
+}
