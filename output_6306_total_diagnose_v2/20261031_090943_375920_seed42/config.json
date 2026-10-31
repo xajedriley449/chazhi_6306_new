@@ -1,0 +1,47 @@
+{
+  "args": {
+    "mode": "full",
+    "steps": 1000,
+    "save_every": 100,
+    "no_early_stop": true,
+    "data_dir": "E:\\bye\\code\\chazhi_6306_new\\input_6306_daily_xy",
+    "output": null,
+    "epochs": 100,
+    "patience": 15,
+    "seed": 42,
+    "hidden": 32,
+    "device": "auto",
+    "sampling": [
+      "natural",
+      "balanced"
+    ]
+  },
+  "scales": {
+    "input": [
+      0.03256768733263016,
+      0.5229305028915405
+    ],
+    "target": 0.5229305028915405,
+    "fit_source": "usable training samples only; max, no clipping"
+  },
+  "target": "log10(1+sum high energy_J/energy_ref)",
+  "energy_ref": 100000.0,
+  "script_sha256": "38731bbac6b545f855b924d87c3ca30bed43f880236817514902660aea68f140",
+  "core_sha256": "04601d7123edc0a97f91f559b09779308bf428e1bbda392b17cdc6fa12aa057c",
+  "interpretation": "scalar diagnostic, not a spatial model",
+  "data_audit": {
+    "days": 1435,
+    "shape": [
+      1435,
+      2,
+      64,
+      64
+    ],
+    "unknown_days": 1435,
+    "coverage_mode": "exploratory",
+    "interpretation": "catalog backtest; monitoring completeness unverified",
+    "manifest_sha256": "936124ddf327307724b97e68c95f10f6f637f2cc24c0c76186de60264ea54ec3",
+    "events_sha256": "d7e5ef7d3917e33930d5c77f7018dcc3e8569f909647fa5eb812b16b94aed919",
+    "npz_digest": "62858c6c45814f3997196adc2c56eefaf08d1171705df47a55fafaa627acdb4c"
+  }
+}

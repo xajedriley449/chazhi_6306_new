@@ -1,0 +1,7 @@
+{
+  "best_epoch": 76,
+  "completed_epochs": 100,
+  "best_val_loss": 0.004122115079670736,
+  "loss": "Huber on log10 daily total; natural validation distribution",
+  "checkpoint": "best_model.pth"
+}

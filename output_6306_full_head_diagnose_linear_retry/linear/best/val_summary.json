@@ -1,0 +1,94 @@
+{
+  "scalar_convlstm": {
+    "all": {
+      "days": 365,
+      "MAE_J": 8162.15928421555,
+      "true_mean_J": 7156.687403146402,
+      "pred_mean_J": 1218.6723936824412,
+      "log_MAE": 0.015357196004423371
+    },
+    "high_event_days": {
+      "days": 6,
+      "MAE_J": 428880.3014327518,
+      "true_mean_J": 435365.1503580729,
+      "pred_mean_J": 6484.848925320999,
+      "log_MAE": 0.6484258472919464
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "MAE_J": 1130.6583012316576,
+      "true_mean_J": 0.0,
+      "pred_mean_J": 1130.6583012316576,
+      "log_MAE": 0.00477666144251491
+    }
+  },
+  "zero": {
+    "all": {
+      "days": 365,
+      "MAE_J": 7156.687403146402,
+      "true_mean_J": 7156.687403146402,
+      "pred_mean_J": 0.0,
+      "log_MAE": 0.011094803842779707
+    },
+    "high_event_days": {
+      "days": 6,
+      "MAE_J": 435365.1503580729,
+      "true_mean_J": 435365.1503580729,
+      "pred_mean_J": 0.0,
+      "log_MAE": 0.6749339004357656
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "MAE_J": 0.0,
+      "true_mean_J": 0.0,
+      "pred_mean_J": 0.0,
+      "log_MAE": 0.0
+    }
+  },
+  "training_mean": {
+    "all": {
+      "days": 365,
+      "MAE_J": 63330.82467881626,
+      "true_mean_J": 7156.687403146402,
+      "pred_mean_J": 58083.739675975914,
+      "log_MAE": 0.2034432477087614
+    },
+    "high_event_days": {
+      "days": 6,
+      "MAE_J": 377281.4106820969,
+      "true_mean_J": 435365.1503580729,
+      "pred_mean_J": 58083.73967597592,
+      "log_MAE": 0.4760466992712236
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "MAE_J": 58083.73967597592,
+      "true_mean_J": 0.0,
+      "pred_mean_J": 58083.73967597592,
+      "log_MAE": 0.198887201164542
+    }
+  },
+  "history_10day_mean": {
+    "all": {
+      "days": 365,
+      "MAE_J": 13514.836461472598,
+      "true_mean_J": 7156.687403146402,
+      "pred_mean_J": 7156.687403146402,
+      "log_MAE": 0.032575258871790067
+    },
+    "high_event_days": {
+      "days": 6,
+      "MAE_J": 411076.2757031249,
+      "true_mean_J": 435365.1503580729,
+      "pred_mean_J": 24288.874654947915,
+      "log_MAE": 0.5971986100025792
+    },
+    "no_high_event_days": {
+      "days": 359,
+      "MAE_J": 6870.355582782031,
+      "true_mean_J": 0.0,
+      "pred_mean_J": 6870.355582782031,
+      "log_MAE": 0.023138656903030363
+    }
+  }
+}

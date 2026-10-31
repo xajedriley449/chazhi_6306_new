@@ -1,0 +1,8 @@
+{
+  "completed": true,
+  "train_only": true,
+  "comparison": [
+    "softplus",
+    "linear"
+  ]
+}

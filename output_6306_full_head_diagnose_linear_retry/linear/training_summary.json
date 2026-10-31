@@ -1,0 +1,8 @@
+{
+  "best_epoch": 97,
+  "completed_epochs": 100,
+  "best_val_loss": 0.0038695609259000105,
+  "output_mode": "linear",
+  "loss": "Huber in log10 total energy",
+  "checkpoint": "best_model.pth"
+}
