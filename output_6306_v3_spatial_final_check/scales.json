@@ -1,0 +1,8 @@
+{
+  "input": [
+    0.03256768733263016,
+    0.5229305028915405
+  ],
+  "target": 0.5229305028915405,
+  "fit_source": "usable training samples only; max, no clipping"
+}

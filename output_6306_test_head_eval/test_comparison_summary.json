@@ -1,0 +1,229 @@
+{
+  "test_split": "target dates from 2023-01-01 onward, using the existing exploratory coverage policy",
+  "data_audit": {
+    "days": 1435,
+    "shape": [
+      1435,
+      2,
+      64,
+      64
+    ],
+    "unknown_days": 1435,
+    "coverage_mode": "exploratory",
+    "interpretation": "catalog backtest; monitoring completeness unverified",
+    "manifest_sha256": "936124ddf327307724b97e68c95f10f6f637f2cc24c0c76186de60264ea54ec3",
+    "events_sha256": "d7e5ef7d3917e33930d5c77f7018dcc3e8569f909647fa5eb812b16b94aed919",
+    "npz_digest": "62858c6c45814f3997196adc2c56eefaf08d1171705df47a55fafaa627acdb4c"
+  },
+  "energy_ref_J": 100000.0,
+  "negative_linear_log_policy": "linear outputs are preserved in CSV; values are clipped at zero only for physical energy conversion. Softplus outputs use the activation before conversion.",
+  "models": {
+    "linear": {
+      "checkpoint": "E:\\bye\\code\\chazhi_6306_new\\output_6306_full_head_diagnose\\20261031_092750_632041_seed42\\linear\\best_model.pth",
+      "output_mode": "linear",
+      "test_days": 349,
+      "positive_test_days": 9,
+      "negative_predicted_log_count": 81,
+      "predicted_log10_energy_min": -0.08178925514221191,
+      "predicted_log10_energy_max": 0.17750239372253418,
+      "metrics": {
+        "scalar_convlstm": {
+          "all": {
+            "days": 349,
+            "MAE_J": 12241.09020955451,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 5255.965646141751,
+            "log_MAE": 0.03295355727816038
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 283376.458950423,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 12508.850880306061,
+            "log_MAE": 0.5141544540723165
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 5063.977507590343,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 5063.977507590343,
+            "log_MAE": 0.02021588648066801
+          }
+        },
+        "zero": {
+          "all": {
+            "days": 349,
+            "MAE_J": 7630.280196207913,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.014502483486787638
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 295885.3098307291,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.5623740818765428
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 0.0,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.0
+          }
+        },
+        "training_mean": {
+          "all": {
+            "days": 349,
+            "MAE_J": 62718.29690895298,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 58083.73967597592,
+            "log_MAE": 0.203131892041124
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 237801.5701547532,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 58083.739675975914,
+            "log_MAE": 0.36348688071200086
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 58083.73967597592,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 58083.73967597592,
+            "log_MAE": 0.198887201164542
+          }
+        },
+        "history_10day_mean": {
+          "all": {
+            "days": 349,
+            "MAE_J": 15665.743654862104,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 8525.442955318766,
+            "log_MAE": 0.04329109261213797
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 286385.151812066,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 9500.158018663189,
+            "log_MAE": 0.5261236797145206
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 8499.641674230237,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 8499.641674230237,
+            "log_MAE": 0.030510230012369025
+          }
+        }
+      }
+    },
+    "softplus": {
+      "checkpoint": "E:\\bye\\code\\chazhi_6306_new\\output_6306_full_head_diagnose\\20261031_092750_632041_seed42\\softplus\\best_model.pth",
+      "output_mode": "softplus",
+      "test_days": 349,
+      "positive_test_days": 9,
+      "negative_predicted_log_count": 0,
+      "predicted_log10_energy_min": 0.018632985651493073,
+      "predicted_log10_energy_max": 0.38091710209846497,
+      "metrics": {
+        "scalar_convlstm": {
+          "all": {
+            "days": 349,
+            "MAE_J": 19037.79223174406,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 12331.55476040281,
+            "log_MAE": 0.058087951645127
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 277969.14810970327,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 17916.16172102584,
+            "log_MAE": 0.49466194750534165
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 12183.7269290922,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 12183.7269290922,
+            "log_MAE": 0.04653158116647426
+          }
+        },
+        "zero": {
+          "all": {
+            "days": 349,
+            "MAE_J": 7630.280196207913,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.014502483486787638
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 295885.3098307291,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.5623740818765428
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 0.0,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 0.0,
+            "log_MAE": 0.0
+          }
+        },
+        "training_mean": {
+          "all": {
+            "days": 349,
+            "MAE_J": 62718.29690895298,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 58083.73967597592,
+            "log_MAE": 0.203131892041124
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 237801.5701547532,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 58083.739675975914,
+            "log_MAE": 0.36348688071200086
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 58083.73967597592,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 58083.73967597592,
+            "log_MAE": 0.198887201164542
+          }
+        },
+        "history_10day_mean": {
+          "all": {
+            "days": 349,
+            "MAE_J": 15665.743654862104,
+            "true_mean_J": 7630.280196207913,
+            "pred_mean_J": 8525.442955318766,
+            "log_MAE": 0.04329109261213797
+          },
+          "high_event_days": {
+            "days": 9,
+            "MAE_J": 286385.151812066,
+            "true_mean_J": 295885.3098307291,
+            "pred_mean_J": 9500.158018663189,
+            "log_MAE": 0.5261236797145206
+          },
+          "no_high_event_days": {
+            "days": 340,
+            "MAE_J": 8499.641674230237,
+            "true_mean_J": 0.0,
+            "pred_mean_J": 8499.641674230237,
+            "log_MAE": 0.030510230012369025
+          }
+        }
+      }
+    }
+  },
+  "selection_note": "Report both test results; do not select/tune a model using these test metrics."
+}

@@ -22,6 +22,7 @@ def build_model(hidden, mode):
     class ScalarModel(nn.Module):
         def __init__(self):
             super().__init__()
+            self.mode = mode
             self.encoder = core.Predictor(2, hidden, 'random')
             del self.encoder.head
             self.pool = nn.AdaptiveAvgPool2d((4, 4))
@@ -38,7 +39,8 @@ def build_model(hidden, mode):
                 i, f, o, g = self.encoder.gates(t.cat([x[:, j], hx], 1)).chunk(4, 1)
                 cx = t.sigmoid(f) * cx + t.sigmoid(i) * t.tanh(g)
                 hx = t.sigmoid(o) * t.tanh(cx)
-            return self.head(self.pool(hx)).squeeze(1)
+            z = self.head(self.pool(hx)).squeeze(1)
+            return core.F.softplus(z) if self.mode == 'softplus' else z
 
     return ScalarModel()
 
@@ -130,8 +132,8 @@ def main():
             for x, _ in loader:
                 predictions.extend(model(x.to(device)).cpu().numpy().tolist())
 
-        raw_log = np.asarray(predictions, dtype=np.float64)
-        clipped_log = np.maximum(raw_log, 0.0)
+        predicted_log = np.asarray(predictions, dtype=np.float64)
+        clipped_log = np.maximum(predicted_log, 0.0)
         predicted_j = core.to_j(clipped_log, energy_ref)
         true_j = sums[test_ids, 1].astype(np.float64)
         truth_log = targets[test_ids].astype(np.float64)
@@ -158,8 +160,8 @@ def main():
                 'log_error': np.abs(pred_log - truth_log),
             })
             if name == 'scalar_convlstm':
-                frame['raw_log_prediction'] = raw_log
-                frame['negative_raw_prediction'] = raw_log < 0
+                frame['predicted_log10_energy'] = predicted_log
+                frame['negative_predicted_log'] = predicted_log < 0
             frames.append(frame)
             mode_summary[name] = summarize(frame.rename(columns={
                 'total_absolute_error_J': 'absolute_error_J'
@@ -173,9 +175,9 @@ def main():
             'output_mode': mode,
             'test_days': int(len(test_ids)),
             'positive_test_days': int((n_high > 0).sum()),
-            'negative_raw_log_predictions': int((raw_log < 0).sum()),
-            'raw_log_prediction_min': float(raw_log.min()),
-            'raw_log_prediction_max': float(raw_log.max()),
+            'negative_predicted_log_count': int((predicted_log < 0).sum()),
+            'predicted_log10_energy_min': float(predicted_log.min()),
+            'predicted_log10_energy_max': float(predicted_log.max()),
             'metrics': mode_summary,
         }
         print(f'Finished {mode}: {len(test_ids)} test days', flush=True)
@@ -184,7 +186,7 @@ def main():
         'test_split': 'target dates from 2023-01-01 onward, using the existing exploratory coverage policy',
         'data_audit': audit,
         'energy_ref_J': energy_ref,
-        'negative_linear_log_policy': 'preserve raw log predictions in CSV; clip at zero only for physical energy conversion',
+        'negative_linear_log_policy': 'linear outputs are preserved in CSV; values are clipped at zero only for physical energy conversion. Softplus outputs use the activation before conversion.',
         'models': all_summaries,
         'selection_note': 'Report both test results; do not select/tune a model using these test metrics.',
     }
