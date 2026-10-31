@@ -1,0 +1,30 @@
+{
+  "args": {
+    "data_dir": "E:\\bye\\code\\chazhi_6306_new\\input_6306_daily_xy",
+    "output": null,
+    "steps": 1000,
+    "save_every": 100,
+    "per_class": 4,
+    "hidden": 32,
+    "seed": 42,
+    "lr": 0.001,
+    "device": "auto",
+    "variants": [
+      "original",
+      "random",
+      "random_no_total"
+    ],
+    "dates": null
+  },
+  "scales": {
+    "input": [
+      0.03256768733263016,
+      0.5229305028915405
+    ],
+    "target": 0.5229305028915405,
+    "fit_source": "usable training samples only; max, no clipping"
+  },
+  "script_sha256": "7c68dd3a6676badec92f870a993b965b65afdc628fdf8bbd758c930e7d61748b",
+  "core_sha256": "e5dacaec51aecbd6338014f9947d574b24acfe1ab88ca1927dba19ed96707f0c",
+  "interpretation": "train-only memorization; not generalization"
+}

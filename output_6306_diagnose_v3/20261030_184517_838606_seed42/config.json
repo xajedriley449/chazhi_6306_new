@@ -1,0 +1,39 @@
+{
+  "args": {
+    "data_dir": "E:\\bye\\code\\chazhi_6306_new\\input_6306_daily_xy",
+    "output": null,
+    "steps": 1000,
+    "save_every": 100,
+    "per_class": 4,
+    "hidden": 32,
+    "seed": 42,
+    "lr": 0.001,
+    "device": "auto",
+    "variants": [
+      "random",
+      "random_spatial"
+    ],
+    "spatial_weight": 0.01,
+    "dates": [
+      "2020-03-13",
+      "2020-04-09",
+      "2020-07-12",
+      "2020-05-15",
+      "2020-12-24",
+      "2020-04-29",
+      "2021-05-19",
+      "2021-08-07"
+    ]
+  },
+  "scales": {
+    "input": [
+      0.03256768733263016,
+      0.5229305028915405
+    ],
+    "target": 0.5229305028915405,
+    "fit_source": "usable training samples only; max, no clipping"
+  },
+  "script_sha256": "4b88dc7e290f70d752c1bbb263da178494d28010278f955da070e5f28510e62c",
+  "core_sha256": "8bf9a8f307dd088f68023bef6172b3ac9a9a5836f1404711160e4b342739527e",
+  "interpretation": "train-only memorization; not generalization"
+}

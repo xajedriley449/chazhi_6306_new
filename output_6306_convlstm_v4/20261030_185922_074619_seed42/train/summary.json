@@ -1,0 +1,210 @@
+{
+  "convlstm": {
+    "all": {
+      "days": 676,
+      "events": 40,
+      "grid_MAE_J": 29.33120872974577,
+      "log_MAE": 0.00011865541676522374,
+      "total_absolute_error_J": 113243.06907077284,
+      "total_bias_J": 8834.436338237947,
+      "pred_total_J": 66918.17603540623,
+      "event_coverage_top5": 0.825,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": 0.95,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": 0.975,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "high_event_days": {
+      "days": 39,
+      "events": 40,
+      "grid_MAE_J": 250.27556985737945,
+      "log_MAE": 0.0009382712584585215,
+      "total_absolute_error_J": 905570.9947738847,
+      "total_bias_J": -904178.63925672,
+      "pred_total_J": 102606.18216086364,
+      "event_coverage_top5": 0.825,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": 0.95,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": 0.975,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "no_high_event_days": {
+      "days": 637,
+      "events": 0,
+      "grid_MAE_J": 15.804002946421265,
+      "log_MAE": 6.847485502889936e-05,
+      "total_absolute_error_J": 64733.1960685415,
+      "total_bias_J": 64733.1960685415,
+      "pred_total_J": 64733.1960685415,
+      "event_coverage_top5": null,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": null,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": null,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "negative_day_pred_energy_quantiles_J": {
+      "0.5": 49533.83048941898,
+      "0.9": 135705.58861448304,
+      "0.95": 160305.74935583447
+    }
+  },
+  "history_10day_mean": {
+    "all": {
+      "days": 676,
+      "events": 40,
+      "grid_MAE_J": 27.89568819782499,
+      "log_MAE": 0.0001113199476344815,
+      "total_absolute_error_J": 110166.08830991903,
+      "total_bias_J": 0.0,
+      "pred_total_J": 58083.7396971683,
+      "event_coverage_top5": 0.3,
+      "mean_alarm_area_top5": 0.015494261973002958,
+      "event_coverage_top10": 0.3,
+      "mean_alarm_area_top10": 0.016391370423446745,
+      "event_coverage_top20": 0.3,
+      "mean_alarm_area_top20": 0.016391370423446745
+    },
+    "high_event_days": {
+      "days": 39,
+      "events": 40,
+      "grid_MAE_J": 250.94545950659952,
+      "log_MAE": 0.0009406428720370913,
+      "total_absolute_error_J": 956898.6593005814,
+      "total_bias_J": -952646.871404682,
+      "pred_total_J": 54137.950012901914,
+      "event_coverage_top5": 0.3,
+      "mean_alarm_area_top5": 0.02100235376602564,
+      "event_coverage_top10": 0.3,
+      "mean_alarm_area_top10": 0.02100235376602564,
+      "event_coverage_top20": 0.3,
+      "mean_alarm_area_top20": 0.02100235376602564
+    },
+    "no_high_event_days": {
+      "days": 637,
+      "events": 0,
+      "grid_MAE_J": 14.239579750349,
+      "log_MAE": 6.0545074711872747e-05,
+      "total_absolute_error_J": 58325.3186574295,
+      "total_bias_J": 58325.3186574295,
+      "pred_total_J": 58325.3186574295,
+      "event_coverage_top5": null,
+      "mean_alarm_area_top5": 0.01515703186322606,
+      "event_coverage_top10": null,
+      "mean_alarm_area_top10": 0.016109065320839874,
+      "event_coverage_top20": null,
+      "mean_alarm_area_top20": 0.016109065320839874
+    },
+    "negative_day_pred_energy_quantiles_J": {
+      "0.5": 0.0,
+      "0.9": 166056.1642630545,
+      "0.95": 313575.6466761475
+    }
+  },
+  "training_mean": {
+    "all": {
+      "days": 676,
+      "events": 40,
+      "grid_MAE_J": 28.089355341861864,
+      "log_MAE": 0.00011337112401492769,
+      "total_absolute_error_J": 109465.5094292787,
+      "total_bias_J": 0.0,
+      "pred_total_J": 58083.7396971683,
+      "event_coverage_top5": 0.65,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": 0.925,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": 1.0,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "high_event_days": {
+      "days": 39,
+      "events": 40,
+      "grid_MAE_J": 255.2656842295405,
+      "log_MAE": 0.0009598556518146958,
+      "total_absolute_error_J": 948701.0817204153,
+      "total_bias_J": -948701.0817204153,
+      "pred_total_J": 58083.73969716828,
+      "event_coverage_top5": 0.65,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": 0.925,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": 1.0,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "no_high_event_days": {
+      "days": 637,
+      "events": 0,
+      "grid_MAE_J": 14.180600512003977,
+      "log_MAE": 6.154554068024802e-05,
+      "total_absolute_error_J": 58083.73969716829,
+      "total_bias_J": 58083.73969716829,
+      "pred_total_J": 58083.73969716829,
+      "event_coverage_top5": null,
+      "mean_alarm_area_top5": 0.0498046875,
+      "event_coverage_top10": null,
+      "mean_alarm_area_top10": 0.099853515625,
+      "event_coverage_top20": null,
+      "mean_alarm_area_top20": 0.199951171875
+    },
+    "negative_day_pred_energy_quantiles_J": {
+      "0.5": 58083.73969716829,
+      "0.9": 58083.73969716829,
+      "0.95": 58083.73969716829
+    }
+  },
+  "zero": {
+    "all": {
+      "days": 676,
+      "events": 40,
+      "grid_MAE_J": 14.180600512003977,
+      "log_MAE": 5.300539956248348e-05,
+      "total_absolute_error_J": 58083.73969716829,
+      "total_bias_J": -58083.73969716829,
+      "pred_total_J": 0.0,
+      "event_coverage_top5": 0.0,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": 0.0,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": 0.0,
+      "mean_alarm_area_top20": 0.0
+    },
+    "high_event_days": {
+      "days": 39,
+      "events": 40,
+      "grid_MAE_J": 245.79707554140236,
+      "log_MAE": 0.000918760259083047,
+      "total_absolute_error_J": 1006784.8214175841,
+      "total_bias_J": -1006784.8214175841,
+      "pred_total_J": 0.0,
+      "event_coverage_top5": 0.0,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": 0.0,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": 0.0,
+      "mean_alarm_area_top20": 0.0
+    },
+    "no_high_event_days": {
+      "days": 637,
+      "events": 0,
+      "grid_MAE_J": 0.0,
+      "log_MAE": 0.0,
+      "total_absolute_error_J": 0.0,
+      "total_bias_J": 0.0,
+      "pred_total_J": 0.0,
+      "event_coverage_top5": null,
+      "mean_alarm_area_top5": 0.0,
+      "event_coverage_top10": null,
+      "mean_alarm_area_top10": 0.0,
+      "event_coverage_top20": null,
+      "mean_alarm_area_top20": 0.0
+    },
+    "negative_day_pred_energy_quantiles_J": {
+      "0.5": 0.0,
+      "0.9": 0.0,
+      "0.95": 0.0
+    }
+  }
+}

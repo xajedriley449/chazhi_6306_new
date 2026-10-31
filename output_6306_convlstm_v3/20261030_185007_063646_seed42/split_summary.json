@@ -1,0 +1,17 @@
+{
+  "train": {
+    "samples": 676,
+    "high_event_days": 39,
+    "high_events": 40
+  },
+  "val": {
+    "samples": 365,
+    "high_event_days": 6,
+    "high_events": 6
+  },
+  "test": {
+    "samples": 349,
+    "high_event_days": 9,
+    "high_events": 9
+  }
+}

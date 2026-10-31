@@ -1,0 +1,6 @@
+{
+  "initial_training_loss": 0.042599122398116765,
+  "last_training_loss_before_update": 0.021802772747469133,
+  "steps": 1000,
+  "interpretation": "inspect sample_metrics and images; no automatic claim of predictive skill"
+}
